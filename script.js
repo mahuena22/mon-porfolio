@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, observerOptions);
 
-    const sections = document.querySelectorAll('.about-card, .project-card, .service-card, .contact-wrapper');
+    const sections = document.querySelectorAll('.about-card, .project-card, .skill-card, .testimonial-card, .contact-wrapper');
     sections.forEach(section => {
         observer.observe(section);
     });
