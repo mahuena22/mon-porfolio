@@ -1,0 +1,75 @@
+Crée un projet Replit (HTML/CSS/JS) qui génère un site portfolio PERSONNEL moderne et responsive pour "Léa", inspiré exactement du modèle montré (fonds bleu foncé, accents bleu clair, sections verticales, large mise en valeur photo + CTA). Utilise HTML + Tailwind CSS + JavaScript vanilla. Fournis tous les fichiers nécessaires (index.html, styles via Tailwind CDN ou build, script.js, images placeholders). Détails précis :
+
+1) Général
+- Nom affiché dans le header/logo : "LÉA".
+- Palette : fond bleu foncé, accents bleu clair/cyan, texte blanc/gris clair.
+- Police : Google Fonts (Poppins ou Inter).
+- Design : layout centré, sections bien séparées, look professionnel et aéré.
+- Responsive : mobile / tablette / desktop.
+
+2) Header / Navbar
+- Barre fixée en haut : logo "LÉA" à gauche, liens au centre (Home, About Me, Projects, Services, Contact), bouton d'action à droite "Let’s Talk" (bouton arrondi, bleu clair).
+- Navbar sur fond semi-transparent / légèrement plus sombre que le fond.
+
+3) Hero
+- Grande section d'intro sur fond bleu foncé.
+- Photo portrait de Léa (placeholder circulaire, bord lumineux).
+- Texte principal :
+  - Petit label : "LÉA" (ou "LÉA AHOUANSE")
+  - Titre large : "Hey! I’m Léa"
+  - Sous-titre animé : "I’m a Web Developer" (effet typing/simple fade-in en bleu clair)
+  - Paragraphe descriptif court (Lorem ipsum).
+- CTA : bouton "Get in Touch" + icônes réseaux (Facebook, LinkedIn, GitHub).
+- Décor graphique discret (cercles, lignes) en arrière-plan.
+
+4) About
+- Card avec photo de Léa (arrondie) à gauche (ou encadrée), texte à droite :
+  - Titre : "I am available for Web Development projects."
+  - Paragraphe explicatif.
+  - 3 statistiques mises en avant (ex : 15+ Projects, 2+ Years Experience, 5+ Certifications) sous forme de petits badges.
+
+5) Projects (Recent Projects)
+- Titre de section : "Recent Projects"
+- Grille de 3 cartes (image placeholder, titre, courte description, bouton view). Carte avec ombre douce / glassmorphism.
+- Pagination / indicateur simple sous la grille (petits points).
+
+6) Services
+- Titre : "Services I Provide"
+- 3-4 blocs horizontaux ou en grille (icône, titre, 1-2 lignes description) : Web Development, UI/UX Design, Responsive Design, Maintenance.
+
+7) Testimonials
+- Slider ou card avec 1-2 témoignages fictifs :
+  - Photo ronde, citation, nom + fonction.
+- Fond légèrement plus sombre, texte centré.
+
+8) Contact
+- Section en deux colonnes :
+  - Gauche : photo de Léa + coordonnées (email : lea@email.com, téléphone fictif).
+  - Droite : formulaire moderne (Name, Email, Subject, Message) avec placeholders et validation JS simple.
+- Bouton large "Send Message" en bleu clair.
+- Envoi simulated (pas besoin de backend) : sur submit, affiche message de succès via modal ou toast JS.
+
+9) Footer
+- Texte centré : "© 2025 Léa – All Rights Reserved."
+- Liens réseaux.
+
+10) Interactions & style
+- Hover states sur les boutons et cartes (léger élévation).
+- Animation d'apparition (fade-up) pour chaque section à l'affichage.
+- Effet typing pour le sous-titre (I’m a Web Developer) — si trop long, simulate avec JS simple.
+- Utiliser utilitaires Tailwind pour spacing, responsive, arrondis, ombres. Ajouter classes pour glassmorphism (backdrop-filter) sur cartes.
+
+11) Livrables / structure
+- index.html — structure complète + liens vers Tailwind CDN (ou fichier build si tu préfères).
+- assets/ — placeholder image(s) (ou URL placeholder).
+- script.js — petites animations : typing, form validation, toggles mobile menu.
+- README.md — instructions pour lancer sur Replit (ouvrir index.html).
+
+Instructions supplémentaires pour Replit :
+- Si tu utilises le CDN Tailwind : inclure le lien CDN officiel dans <head> ou configurer Tailwind via PostCSS si tu préfères un build.
+- Fournis des classes Tailwind prêtes à l’emploi pour faciliter la personnalisation.
+- Le résultat doit être prêt à visualiser immédiatement sur Replit (ouvrir index.html).
+
+---
+
+Génère le code complet (HTML + CSS via Tailwind + JS) prêt à coller dans Replit. Nom du site : "Portfolio — Léa". Respecte fidèlement le style et la structure décrits ci-dessus. ```
