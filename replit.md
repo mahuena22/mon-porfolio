@@ -53,7 +53,24 @@ Portfolio personnel moderne et responsive pour Léa, créé avec HTML, CSS vanil
 ## How to Run
 Le site utilise Python's http.server sur le port 5000. Ouvrez simplement l'URL fournie par Replit pour voir le portfolio.
 
-## Recent Changes (2 Octobre 2025)
+## Replit Environment Setup
+- ✅ Python 3.11 (already installed in Replit)
+- ✅ Workflow configured: `python -m http.server 5000`
+- ✅ Server binds to 0.0.0.0:5000 for Replit proxy compatibility
+- ✅ Deployment configured for Autoscale (static website)
+- ✅ .gitignore added for Python files
+
+## Deployment
+The project is configured for Replit Autoscale deployment, which is perfect for static websites. Click the "Publish" button in Replit to deploy to production.
+
+## Recent Changes
+**3 Octobre 2025 - Replit Setup**
+- Configured Replit environment for imported GitHub project
+- Added .gitignore for Python cache files
+- Set up deployment configuration for Autoscale
+- Verified all functionality works correctly
+
+**2 Octobre 2025 - Initial Creation**
 - Création initiale du portfolio complet
 - Implémentation de toutes les sections selon les spécifications
 - Design responsive pour toutes les tailles d'écran
